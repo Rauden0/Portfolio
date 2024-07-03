@@ -42,7 +42,7 @@ export const items: Array<Project> = [
 			'I created a Backrooms game with a collague using Godot and C#. In this game, players explore the eerie and endless maze of the Backrooms, trying to survive while navigating its creepy and disorienting environment. Godot made it super easy to design the game world and implement all the creepy visuals and mechanics, while C# was great for scripting the game’s logic and interactions. The game runs smoothly almost smoothly only hiccup is that baking a navmesh compared to other engines runs in a main thread and cannot be moved to the separate thread so the game laggs for very short period of time. Working on this project was a quite an enjoyable experience. Godot’s user-friendly interface and powerful features made game development enjoyable, and I appreciated how C# allowed for clean and efficient coding. This project was a fantastic way to improve my game development skills and learn how to create an immersive and engaging experience. Only bad thing that i want to point out about Godot is its lack of learning resources and quite bad handling of some edge cases.',
 		shortDescription:'Backrooms game made with Godot and C#',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.ExpressJs,
+		logo: Assets.Godot,
 		name: 'Backrooms Game',
 		period: {
 			from: new Date()
@@ -58,12 +58,12 @@ export const items: Array<Project> = [
 		shortDescription:
 			'Location tracker app made with kotlin, c# (api.net) and aws',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.ExpressJs,
+		logo: Assets.Kotlin,
 		name: 'Tournament manager',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('express','csharp'),
+		skills: getSkills('kotlin','csharp','aws'),
 		type: 'Web app'
 	}
 ];
