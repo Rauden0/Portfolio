@@ -1,3 +1,3 @@
-export const data = 'Martin Můčka';
+export const data = 'static/Resume.pdf';
 
 export const title = 'Resumé';
