@@ -57,7 +57,7 @@ export const items: Array<Project> = [
 		slug: 'bubu-tracker',
 		color: '#ff3e00',
 		description:
-			'WIP.I developed a location tracker app using Kotlin, C#, and AWS. This app allows users to track and share their real-time location with friends and family. Built with Kotlin, the Android app offers a smooth and responsive user experience. On the backend, C# and .NET power the API, handling data requests and user management efficiently. AWS hosts the server and database. With AWS services, the app can handle a growing number of users and their location data without any issues. Currently this is work in progress.So far android development suits me quite nicely. Only hiccup i had so far was that i tried to use gRPC for comunication but unfortunately kotlin lacks a good support for gRPC.',
+			'WIP.I am developing a location tracker app using Kotlin, C#, and AWS. This app should allow user to track and share their real-time location with friends and family. Built with Kotlin, the Android app should offer a smooth and responsive user experience. On the backend, C# and .NET power the API, handling data requests and user management efficiently. AWS hosts the database. With AWS services, the app can handle a growing number of users and their location data without any issues. Currently this is work in progress .So far android development suits me quite nicely. Only hiccup i had so far was that i tried to use gRPC for comunication but unfortunately kotlin lacks a good support for gRPC.',
 		shortDescription:
 			'Location tracker app made with kotlin, c# (api.net) and aws',
 		links: [{ to: 'https://github.com/Rauden0/Projects', label: 'GitHub' }],
