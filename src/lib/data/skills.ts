@@ -91,7 +91,7 @@ export const items = [
 		logo: Assets.ExpressJs,
 		name: 'ExpressJs',
 		category: 'framework'
-	  })
+	  }),
 	  defineSkill({
 		slug: 'kotlin',
 		color: 'yellow',
