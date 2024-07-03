@@ -1,5 +1,5 @@
 import { base } from '$app/paths';
 
-export const data = `/resume`;
+export const data = `${base}/resume`;
 
-export const title = 'Resume';
+export const title = 'Resumé';
