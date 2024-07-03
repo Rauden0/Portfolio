@@ -82,6 +82,15 @@ export const items = [
 		logo: Assets.Godot,
 		name: 'Godot',
 		category: 'game-engine'
+	  }),
+	  defineSkill({
+		slug: 'express',
+		color: 'yellow',
+		description:
+		  '',
+		logo: Assets.ExpressJs,
+		name: 'ExpressJs',
+		category: 'framework'
 	  })
 ] as const;
 
