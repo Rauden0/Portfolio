@@ -22,4 +22,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 
 ];
 
-export const skills = getSkills('cshapr', 'cpp', 'c', 'godot', 'qt', 'ExpressJs');
+export const skills = getSkills('csharp', 'cpp', 'c', 'godot', 'qt', 'express');
