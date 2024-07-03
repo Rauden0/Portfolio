@@ -1,3 +1,3 @@
-export const data = "static/resume.pdf";
+export const data = "/resume.pdf";
 
 export const title = 'Resumé';
