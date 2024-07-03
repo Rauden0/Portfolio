@@ -1,3 +1,3 @@
-export const data = '';
+export const data = 'Martin Můčka';
 
 export const title = 'Resumé';
