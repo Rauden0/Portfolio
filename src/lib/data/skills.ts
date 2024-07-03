@@ -92,6 +92,15 @@ export const items = [
 		name: 'ExpressJs',
 		category: 'framework'
 	  })
+	  defineSkill({
+		slug: 'kotlin',
+		color: 'yellow',
+		description:
+		  '',
+		logo: Assets.Kotlin,
+		name: 'Kotlin',
+		category: 'pro-lang'
+	  })
 ] as const;
 
 export const title = 'Skills';
