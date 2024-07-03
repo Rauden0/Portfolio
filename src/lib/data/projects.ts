@@ -14,7 +14,8 @@ export const items: Array<Project> = [
 		logo: Assets.Qt,
 		name: 'Rss Proxy Server',
 		period: {
-			from: new Date()
+			from: new Date(2023,10,1),
+			to: new Date(2023,12,10)
 		},
 		skills: getSkills('cpp', 'qt'),
 		type: 'Http Server'
@@ -30,7 +31,8 @@ export const items: Array<Project> = [
 		logo: Assets.ExpressJs,
 		name: 'Tournament manager',
 		period: {
-			from: new Date()
+			from: new Date(2024,4,1),
+			to: new Date(2024,6,1)
 		},
 		skills: getSkills('express','csharp'),
 		type: 'Web app'
@@ -45,10 +47,11 @@ export const items: Array<Project> = [
 		logo: Assets.Godot,
 		name: 'Backrooms Game',
 		period: {
-			from: new Date()
+			from: new Date(2023,10,1),
+			to: new Date(2023,12,10)
 		},
 		skills: getSkills('godot','csharp'),
-		type: 'Web app'
+		type: 'Desktop app'
 	},
 	{
 		slug: 'bubu-tracker',
@@ -59,12 +62,12 @@ export const items: Array<Project> = [
 			'Location tracker app made with kotlin, c# (api.net) and aws',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Kotlin,
-		name: 'Tournament manager',
+		name: 'Bubu tracker',
 		period: {
-			from: new Date()
+			from: new Date(2024,6,1),
 		},
 		skills: getSkills('kotlin','csharp','aws'),
-		type: 'Web app'
+		type: 'Mobile app'
 	}
 ];
 
