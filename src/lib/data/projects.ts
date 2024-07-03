@@ -32,7 +32,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		skills: getSkills('express','csharp'),
 		type: 'Web app'
 	}
 ];
