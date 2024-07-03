@@ -1,3 +1,5 @@
-export const data = "/resume.pdf";
+import { base } from '$app/paths';
 
-export const title = 'Resumé';
+export const data = `${base}/resume.pdf`;
+
+export const title = 'Resume';
