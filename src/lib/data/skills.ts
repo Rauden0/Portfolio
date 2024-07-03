@@ -39,7 +39,7 @@ export const items = [
 		slug: 'csharp',
 		color: 'purple',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			' I ve been working with C# since high school, where I started by creating small and basic games in Unity. This early experience helped me grasp the fundamentals of C# and game development. After that, I continued using C# mainly with the Godot engine, working on a few small projects that further honed my skills in scripting and game mechanics. More recently, I ve been focusing on backend development with C#, especially using ASP.NET and MVC. I ve developed several apps where I ve applied my knowledge to build robust and efficient server-side logic. This journey has allowed me to deepen my understanding of C# and explore its versatility in different domains, from game development to backend services.',
 		logo: Assets.Csharp,
 		name: 'C#',
 		category: 'pro-lang'
@@ -48,7 +48,7 @@ export const items = [
 		slug: 'c',
 		color: 'blue',
 		description:
-		  'C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations. By design, C provides constructs that map efficiently to typical machine instructions and has found lasting use in applications previously coded in assembly language.',
+			'I first encountered C during university, taking two courses that built a solid foundation in its fundamentals. I later attempted some projects on my Raspberry Pi, which didn t pan out but taught me a lot about lower-level programming. This experience with C was especially helpful when I transitioned to C++, as it shares many concepts. My background in C made learning C++ smoother and deepened my understanding of programming at a system level.',
 		logo: Assets.C,
 		name: 'C',
 		category: 'pro-lang'
@@ -58,7 +58,7 @@ export const items = [
 		slug: 'cpp',
 		color: 'green',
 		description:
-		  'C++ is a general-purpose programming language created as an extension of the C programming language, with object-oriented programming and generic programming features. C++ provides facilities for low-level memory manipulation and is designed with a bias toward system programming, embedded, and resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights.',
+		  'I first encountered C++ in university during a course focused on Qt, where I created several projects, mainly involving network programming. This experience helped me understand C++ complexities and practical applications. Later, I delved deeper into C++ by exploring the Unreal Engine, which further enhanced my skills and knowledge in game development and advanced programming concepts.',
 		logo: Assets.Cpp,  
 		name: 'C++',
 		category: 'pro-lang'
@@ -68,7 +68,7 @@ export const items = [
 		slug: 'qt',
 		color: 'orange',
 		description:
-		  'Qt is a cross-platform application framework that is widely used for developing application software that can be run on various software and hardware platforms with little or no change in the underlying codebase, while still being a native application with native capabilities and speed. It is a complete framework that includes everything needed to develop applications, including graphical user interface (GUI) widgets, network sockets, SQL databases, multimedia, web rendering, and more.',
+		  'I first dived into Qt during university, focusing on its robust features for server-side and networking projects. Using Qt, I developed various applications that involved handling network communications efficiently. This experience was pivotal in deepening my understanding of Qts capabilities beyond GUI development, showing me how to create reliable and scalable server applications with ease.',
 		logo: Assets.Qt,
 		name: 'Qt',
 		category: 'framework'
@@ -77,8 +77,7 @@ export const items = [
 	defineSkill({
 		slug: 'godot',
 		color: 'yellow',
-		description:
-		  'Godot is an open-source game engine that is feature-rich and provides a comprehensive set of tools to create 2D and 3D games from a unified interface. It uses a custom scripting language called GDScript for programming game logic, but also supports C# and C++ for more advanced users. Godot emphasizes ease of use, versatility, and performance, making it a popular choice among indie game developers and small to medium-sized studios.',
+		description:'I switched to Godot in early 2023 from Unity, drawn to its innovative approach. While experimenting with game development, I encountered challenges due to Godot newness, including limited support for my ideas and performance issues. Despite these hurdles, the experience broadened my skills and deepened my understanding of game development with emerging technologies.',
 		logo: Assets.Godot,
 		name: 'Godot',
 		category: 'game-engine'
@@ -87,7 +86,7 @@ export const items = [
 		slug: 'express',
 		color: 'yellow',
 		description:
-		  '',
+		  'I started diving into Express, JavaScript, and TypeScript in early 2024, mainly while building a tournament manager app. It was my big project, but I also tinkered with smaller ones to practice different parts of the setup. TypeScript and JavaScript were cool to work with—Express especially stood out for its simplicity in handling server-side stuff.',
 		logo: Assets.ExpressJs,
 		name: 'ExpressJs',
 		category: 'framework'
@@ -96,7 +95,7 @@ export const items = [
 		slug: 'kotlin',
 		color: 'yellow',
 		description:
-		  '',
+		  'I recently started learning Kotlin, and having some background in Java has been really helpful. Kotlin feels familiar yet different in a good way—I m enjoying how it streamlines certain aspects compared to Java. I m optimistic that as I continue, I ll keep finding it enjoyable and maybe even discover more ways it simplifies things.',
 		logo: Assets.Kotlin,
 		name: 'Kotlin',
 		category: 'pro-lang'
