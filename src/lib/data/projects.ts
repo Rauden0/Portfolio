@@ -65,8 +65,8 @@ export const items: Array<Project> = [
     logo: Assets.Java,
     name: 'Airport manager',
     period: {
-      from: new Date(2024, 4, 1),
-      to: new Date(2024, 6, 1)
+      from: new Date(2025, 1),
+      to: new Date(2025, 6)
     },
     skills: getSkills('java', 'springboot'),
     type: 'Web app'
