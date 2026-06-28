@@ -65,7 +65,7 @@ export const items: Array<Project> = [
     logo: Assets.Java,
     name: 'Airport manager',
     period: {
-      from: new Date(2025, 1),
+      from: new Date(2025, 2),
       to: new Date(2025, 6)
     },
     skills: getSkills('java', 'springboot'),
@@ -102,6 +102,40 @@ export const items: Array<Project> = [
     },
     skills: getSkills('kotlin', 'csharp', 'aws'),
     type: 'Mobile app'
+  },
+  {
+    slug: 'bookhub',
+    color: '#5e95e3',
+    description:
+      'I developed BookHub as part of the PV179 – Modern Programming Platforms (.NET) course at Masaryk University. It is a Web API for managing and selling books, with CRUD operations for books, authors, publishers, and genres, plus wish lists, orders, and reviews. The system distinguishes User and Admin roles—users can browse, order, and review books, while admins manage the catalog. I built it using ASP.NET Core Web API with a layered architecture: controllers, a service layer, and a Data Access Layer backed by Entity Framework Core. Custom authentication and logging middleware handle request validation and auditing. Working on this project deepened my understanding of .NET Web APIs, EF Core migrations, and designing RESTful endpoints with proper separation of concerns.',
+    shortDescription:
+      'Book catalog and sales Web API built with ASP.NET Core and EF Core',
+    links: [{ to: 'https://github.com/Rauden0/Projects/tree/main/BookHub', label: 'GitHub' }],
+    logo: Assets.Csharp,
+    name: 'BookHub',
+    period: {
+      from: new Date(2024, 9, 1),
+      to: new Date(2024, 12, 15)
+    },
+    skills: getSkills('csharp'),
+    type: 'Web app'
+  },
+  {
+    slug: 'colonist',
+    color: '#ff3e00',
+    description:
+      'I built Colonist as a college project for PV281, recreating the popular online board game Colonist.io. Players gather resources, build roads and settlements, trade with others, and race to 10 victory points. The full stack uses a Rust Actix-web backend for game logic and database persistence, a Yew WebAssembly frontend with a Canvas-based game board, and a shared crate for common types and resource management. PostgreSQL stores game state, and the project runs as three services: database, backend server, and Trunk-served frontend. I enjoyed working across the Rust ecosystem—especially coordinating real-time game state between server and client—and this project strengthened my skills in systems programming, WASM, and multiplayer game architecture.',
+    shortDescription:
+      'Multiplayer Colonist.io clone with Rust backend and Yew WASM client',
+    links: [{ to: 'https://github.com/Rauden0/Projects/tree/main/Colonist', label: 'GitHub' }],
+    logo: Assets.Rust,
+    name: 'Colonist',
+    period: {
+      from: new Date(2025, 1, 1),
+      to: new Date(2025, 5, 30)
+    },
+    skills: getSkills('rust'),
+    type: 'Web app'
   }
 ];
 
