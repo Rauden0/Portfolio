@@ -114,8 +114,8 @@ export const items: Array<Project> = [
     logo: Assets.Csharp,
     name: 'BookHub',
     period: {
-      from: new Date(2024, 9, 1),
-      to: new Date(2024, 12, 15)
+      from: new Date(2026, 2, 1),
+      to: new Date(2026, 2, 31)
     },
     skills: getSkills('csharp'),
     type: 'Web app'
@@ -131,8 +131,8 @@ export const items: Array<Project> = [
     logo: Assets.Rust,
     name: 'Colonist',
     period: {
-      from: new Date(2025, 1, 1),
-      to: new Date(2025, 5, 30)
+      from: new Date(2026, 4, 1),
+      to: new Date(2026, 4, 31)
     },
     skills: getSkills('rust'),
     type: 'Web app'
