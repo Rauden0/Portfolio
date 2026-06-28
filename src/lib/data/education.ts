@@ -9,9 +9,9 @@ export const items: Array<Education> = [
 		logo: Assets.Unknown,
 		name: 'Programming and Application Development',
 		organization: 'Masaryk University',
-		period: { from: new Date(2022, 9, 1), to: new Date(2025, 6, 1) },
+		period: { from: new Date(2022, 8, 1), to: new Date(2025, 6, 1) },
 		shortDescription:
-			'Completed Masaryk University Bachelor in Programming and Application Development, covering software development, programming, software engineering, web technologies, and mobile apps.',
+			'Completed a 3-year Masaryk University Bachelor in Programming and Application Development, covering software development, programming, software engineering, web technologies, and mobile apps.',
 		slug: 'bachelor-cs',
 		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English', 'C#']
 	},
