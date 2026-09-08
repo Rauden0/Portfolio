@@ -7,7 +7,8 @@ export const name = 'Martin';
 
 export const lastName = 'Můčka';
 
-export const description ='I am a creative app developer and a master\'s student at Masarykova Univerzita, passionate about learning new programming languages, with a particular interest in C#. I actively explore innovative solutions and technologies to enhance user experiences.';
+export const description =
+	'Python developer with 2+ years of experience building high-throughput backend microservices and data pipelines. Master’s student in Software Engineering at Masaryk University, with a strong foundation in asynchronous processing (RabbitMQ), hybrid database architectures (PostgreSQL/MongoDB), and Docker. Actively expanding into Generative AI, RAG, and LLM integrations.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/Rauden0' },
@@ -18,8 +19,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	{
 		platform: Platform.Email,
 		link: 'martin.mucka12@gmail.com'
-	},
-
+	}
 ];
 
-export const skills = getSkills('csharp', 'cpp', 'c', 'godot', 'qt', 'express');
+export const skills = getSkills('python', 'fastapi', 'flask', 'csharp', 'docker', 'postgresql');

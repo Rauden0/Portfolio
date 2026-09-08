@@ -108,6 +108,69 @@ export const items = [
     logo: Assets.Rust,
     name: 'Rust',
     category: 'pro-lang'
+  }),
+  defineSkill({
+    slug: 'python',
+    color: '#3776ab',
+    description:
+      'Python is my main language at work. For 2+ years at Development777 I have been building high-throughput backend microservices and data pipelines with it, focusing on API performance, async processing, and clean service boundaries.',
+    logo: Assets.Python,
+    name: 'Python',
+    category: 'pro-lang'
+  }),
+  defineSkill({
+    slug: 'fastapi',
+    color: '#009688',
+    description:
+      'I use FastAPI to build high-throughput REST APIs as part of a microservices architecture. It helped us cut bottlenecks around request handling and keep service contracts explicit while staying close to Python type hints.',
+    logo: Assets.FastApi,
+    name: 'FastAPI',
+    category: 'framework'
+  }),
+  defineSkill({
+    slug: 'flask',
+    color: '#000000',
+    description:
+      'I use Flask alongside FastAPI for backend services at Development777. It is a solid fit for lighter HTTP services in our microservices setup and for iterating quickly on internal APIs.',
+    logo: Assets.Flask,
+    name: 'Flask',
+    category: 'framework'
+  }),
+  defineSkill({
+    slug: 'rabbitmq',
+    color: '#ff6600',
+    description:
+      'I integrated RabbitMQ for asynchronous data processing so services stay stable under high load. It decouples producers from consumers and lets us absorb traffic spikes without blocking API threads.',
+    logo: Assets.RabbitMQ,
+    name: 'RabbitMQ',
+    category: 'devtools'
+  }),
+  defineSkill({
+    slug: 'docker',
+    color: '#2496ed',
+    description:
+      'I containerize microservices with Docker to keep local environments close to production and to streamline CI/CD delivery. Most of the services I work on run as containers from development through deployment.',
+    logo: Assets.Docker,
+    name: 'Docker',
+    category: 'devops'
+  }),
+  defineSkill({
+    slug: 'postgresql',
+    color: '#336791',
+    description:
+      'PostgreSQL is the primary relational store in the systems I work on. I have also used TimescaleDB partitioning on top of it to keep time-series query performance acceptable as data volume grows.',
+    logo: Assets.PostgreSQL,
+    name: 'PostgreSQL',
+    category: 'db'
+  }),
+  defineSkill({
+    slug: 'mongodb',
+    color: '#47a248',
+    description:
+      'I use MongoDB as part of a hybrid persistence strategy next to PostgreSQL, storing document-shaped data that does not fit a rigid relational model well.',
+    logo: Assets.MongoDB,
+    name: 'MongoDB',
+    category: 'db'
   })
 ] as const;
 

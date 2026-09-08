@@ -65,6 +65,9 @@
 								<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">
 									{education.location} · {getTimeDiff(education.period.from, education.period.to)}
 								</div>
+								{#if education.shortDescription}
+									<p class="text-[0.95em] font-300 mb-2">{education.shortDescription}</p>
+								{/if}
 								<div class="row flex-wrap gap-1">
 									{#each education.subjects as subject}
 										<Chip>{subject}</Chip>
