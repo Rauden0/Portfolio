@@ -1,0 +1,6 @@
+import{A as e}from"./UIcon.9a83070c.js";import{g as t}from"./skills.08efab65.js";import{C as o}from"./types.1ebf2f37.js";const r=[{slug:"python-developer-dev777",company:"Development777",description:`I work as a Python developer building high-throughput backend microservices and data pipelines.
+
+- Engineered a microservices architecture with Python, Flask, and FastAPI to resolve system bottlenecks and improve API performance.
+- Integrated RabbitMQ for asynchronous data processing so the system stays stable under high load.
+- Designed a scalable persistence strategy with PostgreSQL, MongoDB, and TimescaleDB partitioning to speed up time-series queries.
+- Containerized microservices with Docker to streamline CI/CD delivery and local development environments.`,contract:o.FullTime,type:"Software Development",location:"Brno, Czechia",period:{from:new Date(2024,8,1)},skills:t("python","fastapi","flask","rabbitmq","docker","postgresql","mongodb"),name:"Python Developer",color:"#3776ab",links:[{to:"https://development777.cz",label:"Company"}],logo:e.Python,shortDescription:"Building high-throughput Python microservices, async pipelines, and hybrid database backends."}],a="Experience";export{r as i,a as t};
