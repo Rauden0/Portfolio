@@ -91,17 +91,17 @@ export const items: Array<Project> = [
     slug: 'bubu-tracker',
     color: '#ff3e00',
     description:
-      'WIP.I am developing a location tracker app using Kotlin, C#, and AWS. This app should allow user to track and share their real-time location with friends and family. Built with Kotlin, the Android app should offer a smooth and responsive user experience. On the backend, C# and .NET power the API, handling data requests and user management efficiently. AWS hosts the database. With AWS services, the app can handle a growing number of users and their location data without any issues. Currently this is work in progress .So far android development suits me quite nicely. Only hiccup i had so far was that i tried to use gRPC for comunication but unfortunately kotlin lacks a good support for gRPC.',
+      'BubuTracker is a location-sharing app for people who mutually consent to share their position with each other - a lightweight, self-hosted alternative to Life360. The Android client is Kotlin, split into feature and core Gradle modules, using osmdroid over OpenStreetMap tiles instead of the Google Maps SDK, with Auth0 for sign-in and tokens encrypted at rest via Android Keystore. The backend started as a C#/.NET API on AWS, but I rewrote it in Go once I wanted something smaller to run and reason about myself: a layered handler-service-repository design on PostgreSQL, with a mutual-consent tracking model where a request only grants location visibility once the other person accepts it, and an in-process caching layer in front of the endpoints that fire on every location poll. I recently added a second client, an Expo/React Native app in TypeScript, so my wife can use it on iOS while I stay on Android, both talking to the same backend and Auth0 tenant. Keeping business rules (consent, cache invalidation, session refresh) consistent by hand across Kotlin, Go, and TypeScript - each with its own test suite - was the main challenge of running three codebases for one product. The trickiest bug was Auth0 access tokens for a custom API audience not carrying the usual profile claims by default, which needed an Auth0 Action to inject them as custom namespaced claims before the backend could see a user\'s real email.',
     shortDescription:
-      'Location tracker app made with kotlin, c# (api.net) and aws',
+      'Cross-platform location-sharing app: Kotlin + Go backend, now with an Expo/React Native iOS client',
     links: [{ to: 'https://github.com/Rauden0/Projects', label: 'GitHub' }],
     logo: Assets.Kotlin,
-    name: 'Bubu tracker',
+    name: 'BubuTracker',
     period: {
       from: new Date(2024, 6, 1),
     },
-    skills: getSkills('kotlin', 'csharp', 'aws'),
-    type: 'Mobile app'
+    skills: getSkills('kotlin', 'go', 'typescript', 'postgresql', 'docker'),
+    type: 'Multi-platform app'
   },
   {
     slug: 'bookhub',

@@ -110,6 +110,24 @@ export const items = [
     category: 'pro-lang'
   }),
   defineSkill({
+    slug: 'go',
+    color: '#00add8',
+    description:
+      'I picked up Go while rewriting BubuTracker\'s backend from a C#/.NET API into something smaller I wanted to run and maintain myself. Its small standard library and explicit error handling took some adjusting coming from C#, but the layered handler-service-repository structure it encouraged, plus first-class table-driven tests, made the backend far easier to reason about and cover with tests than the .NET version was.',
+    logo: Assets.Go,
+    name: 'Go',
+    category: 'pro-lang'
+  }),
+  defineSkill({
+    slug: 'typescript',
+    color: '#3178c6',
+    description:
+      'I used TypeScript to build BubuTracker\'s iOS client with Expo and React Native, sharing the same Auth0 tenant and Go backend as the Android app. Porting the same session-refresh and caching logic from Kotlin to TypeScript by hand was a good exercise in keeping business rules consistent across two very different client stacks.',
+    logo: Assets.TypeScript,
+    name: 'TypeScript',
+    category: 'pro-lang'
+  }),
+  defineSkill({
     slug: 'python',
     color: '#3776ab',
     description:
