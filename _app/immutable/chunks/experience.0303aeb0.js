@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.9a83070c.js";import{g as t}from"./skills.08efab65.js";import{C as o}from"./types.1ebf2f37.js";const r=[{slug:"python-developer-dev777",company:"Development777",description:`I work as a Python developer building high-throughput backend microservices and data pipelines.
+import{A as e}from"./UIcon.35aecf19.js";import{g as t}from"./skills.b0db752f.js";import{C as o}from"./types.1ebf2f37.js";const r=[{slug:"python-developer-dev777",company:"Development777",description:`I work as a Python developer building high-throughput backend microservices and data pipelines.
 
 - Engineered a microservices architecture with Python, Flask, and FastAPI to resolve system bottlenecks and improve API performance.
 - Integrated RabbitMQ for asynchronous data processing so the system stays stable under high load.
