@@ -4,6 +4,22 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
   {
+    slug: 'jobmatcher',
+    color: '#5e95e3',
+    description:
+      'JobMatcher collects job postings from public career-site APIs (Greenhouse, Lever, Ashby, Workday and Jobs.cz) and lets you ask an LLM agent which of them fit your CV and what you are missing, with links to the postings it used. Ingestion goes through RabbitMQ to a worker that normalizes and deduplicates postings, extracts structured facts like seniority, years required, remote policy and stack with an LLM validated by Pydantic, then chunks and embeds them. Failed messages are retried through per-delay TTL queues and end up in a dead-letter queue. Events are published with a transactional outbox using FOR UPDATE SKIP LOCKED. Search is hybrid: hard filters first, then pgvector (HNSW) and Postgres full-text candidates merged with Reciprocal Rank Fusion in a single SQL query. The agent is a plain tool-calling loop without a framework, with search_jobs, get_job and compare_with_cv tools, limits on rounds and parallel calls, and a check that every URL in the answer came from a tool result. It runs locally with Ollama or against Claude. I also wrote a small retrieval eval (hit@5, recall@10, MRR) on a frozen set of postings, so I can compare search modes instead of guessing.',
+    shortDescription:
+      'Job search over career-site APIs with hybrid pgvector search and a tool-calling LLM agent',
+    links: [{ to: 'https://github.com/Rauden0/Projects/tree/main/JobMatcher', label: 'GitHub' }],
+    logo: Assets.FastApi,
+    name: 'JobMatcher',
+    period: {
+      from: new Date(2026, 9, 1),
+    },
+    skills: getSkills('python', 'fastapi', 'postgresql', 'rabbitmq', 'docker'),
+    type: 'Web API'
+  },
+  {
     slug: 'rss-proxy-server',
     color: '#5e95e3',
     description:
